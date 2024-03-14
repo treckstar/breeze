@@ -4,6 +4,9 @@
     "functions": {
         "api/index.php": {
             "runtime": "vercel-php@0.5.4"
+        },
+        "public/(.*)": {
+            "runtime": "@vercel/static-build@0.3.0"
         }
     },
     "routes": [
