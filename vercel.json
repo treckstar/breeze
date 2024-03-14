@@ -3,7 +3,7 @@
     "framework": null,
     "functions": {
         "api/index.php": {
-            "runtime": "vercel-php@0.6.1"
+            "runtime": "vercel-php@0.7.0"
         }
     },
     "routes": [
@@ -22,8 +22,8 @@
     ],
     "env": {
         "APP_NAME": "LaravelBreeze",
-        "APP_ENV": "staging",
-        "APP_DEBUG": "true",
+        "APP_ENV": "production",
+        "APP_DEBUG": "false",
         "APP_URL": "https://breeze-api.app.treckstar.net",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
